@@ -1,8 +1,8 @@
 return {
   'olexsmir/gopher.nvim',
-  requires = {
+  dependencies = {
     'nvim-lua/plenary.nvim',
-    'nvim-treesiter/nvim-treesiter',
+    'nvim-treesiter/nvim-treesitter',
   },
   opts = {
     commands = {
